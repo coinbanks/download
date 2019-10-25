@@ -37,11 +37,7 @@
 	</div>
 	<android-install-footer install="安装 Android 版" googleplayinstall="Google Play下载" @android-click="android" @google-click="googledownload"></android-install-footer>
 
-	<div onclick="hideWeChat()" class="wx-tip">
-		<div class="el-image wx-tip-img">
-			<img src="./images/wx-android-tips.png" class="el-image__inner" style="object-fit: contain;"><!---->
-		</div>
-	</div>
+	<wechat-tips-view></wechat-tips-view>
 </div>
 <!--app e-->
 <script src="js/vue/vue.min.js"></script>
