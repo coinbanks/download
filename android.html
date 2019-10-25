@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>android</title>
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+	<link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+	<link rel="stylesheet" type="text/css" href="css/android.css">
+	<link rel="stylesheet" type="text/css" href="css/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="css/homepage.header.css">
+</head>
+<body class="body">
+<!--app s-->
+<div id="app" class="content-bg">
+	<div class="header-bg el-row el-row--flex">
+		<div class="el-image header-logo"><img src="./images/logo.png" class="el-image__inner"><!----></div>
+		<span class="header-main-name">{{headerName}}</span>
+	</div>
+	<div class="main-title-bg el-row is-justify-center el-row--flex">
+		<span class="main-title">{{headerTitle}}</span>
+	</div>
+	<div class="main-subtitle-bg el-row is-justify-center el-row--flex">
+		<span class="main-subtitle">{{headerSubtitle}}</span>
+	</div>
+	<div class="tips-content">
+		<template v-for="item in tipsData">
+			<div class="tips-cell">
+				<div class="el-image tips-icon">
+					<img v-bind:src="item.icon" class="el-image__inner" style="object-fit: contain;"><!---->
+				</div>
+				<div class="tips-text-content">
+					<div class="tips-text-title">{{item.title}}</div>
+					<div class="tips-text-subtitle">{{item.subtitle}}</div>
+				</div>
+			</div>
+  		</template>
+	</div>
+	<android-install-footer install="安装 Android 版" googleplayinstall="Google Play下载" @android-click="android" @google-click="googledownload"></android-install-footer>
+
+	<div onclick="hideWeChat()" class="wx-tip">
+		<div class="el-image wx-tip-img">
+			<img src="./images/wx-android-tips.png" class="el-image__inner" style="object-fit: contain;"><!---->
+		</div>
+	</div>
+</div>
+<!--app e-->
+<script src="js/vue/vue.min.js"></script>
+<script src="js/lib/index.js"></script>
+<script src="js/jquery-3.3.1.min.js"></script>
+<script src="js/android.footer.js"></script>
+<script src="js/wechat.tips.js"></script>
+<script src="js/index.js"></script>
+</body>
+</html>
