@@ -6,9 +6,9 @@ Vue.component('wechat-tips-view', {
     },
     created: function () {
         if (isiOS() == true) {
-            this.img = '../v2/images/wx-ios-tips.png';
+            this.img = './images/wx-ios-tips.png';
         }else {
-            this.img = '../v2/images/wx-android-tips.png';
+            this.img = './images/wx-android-tips.png';
         }
     },
     template: `
