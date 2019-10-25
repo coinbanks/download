@@ -1,0 +1,188 @@
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.body{
+	margin:0px;
+}
+#app {
+    font-family: PingFangSC-Semibold,Avenir,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    margin: 0 auto;
+    overflow: visible;
+    background-color: #fff;
+}
+#app, .main-body {
+    position: relative;
+}
+.download{
+    width: 100vw;
+}
+.download .download-one{
+    position: relative;
+    width: 100vw;
+    height: 70vh;
+    background: url(../images/ios_wallet_bg.png) 100% 100% no-repeat;
+    background-size: 100vw;
+}
+.download .download-one .download-icon{
+    background: url(../images/ios_wallet_bg2.png) 0 0 no-repeat;
+    background-size: 47.0667vw;
+}
+.download .download-one .download-icon img{
+    width: 20.5333vw;
+    height: 20.5333vw;
+    text-align: center;
+    margin: 21.0667vw 0 0;
+}
+.download .download-one .download-icon p{
+    font-size: 5.0667vw;
+    font-weight: lighter;
+    color: #9ba0b5;
+}
+.download .download-one .download-icon .download-icon-title{
+    font-size: 8.2667vw;
+    color: #37416b;
+    margin: 0;
+}
+.download .download-one .download-button{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 48vw;
+    -webkit-tap-highlight-color: transparent;
+}
+.download .download-one .download-button.is-zh{
+    margin-top: 12.8vw;
+}
+.download .download-one .download-button a, .download .download-one .download-button button {
+    border: 0;
+    color: #fff;
+    min-width: 56vw;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0 10.6667vw;
+    height: 12vw;
+    background-color: #173fff;
+    border-radius: 6.6667vw;
+    font-size: 3.7333vw;
+    display: block;
+    line-height: 12vw;
+    margin: 0 auto;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+}
+.download .download-one .download-button .button-app{
+    margin-top: 5.3333vw;
+}
+
+.download .download-two .two-title{
+    font-size: 5.0667vw;
+    margin-bottom: 10.6667vw;
+}
+
+.download .download-two .two-content .two-content-item{
+    width: 100vw;
+}
+
+.download .download-two .two-content .two-content-item img{
+    width: 53.3333vw;
+    height: 109.7333vw;
+    margin-bottom: 5.7333vw;
+}
+.download .download-two .two-content .two-content-one-p{
+    font-size: 3.2vw;
+    width: 51.7333vw;
+    margin: 0 auto 12vw;
+}
+.copy-right{
+    position: absolute;
+    width: 100%;
+    bottom: 7.2vw;
+    margin-bottom: 0;
+    color: #666;
+    font-size: 2.9333vw;
+    line-height: 4vw;
+    text-align: center;
+}
+.copy-right.is-zh{
+    padding-bottom: 18.6667vw;
+    margin-bottom: 7.2vw;
+    position: relative;
+    bottom: 0;
+}
+
+.download .download-three{
+    z-index: 100;
+    width: 100vw;
+    height: 18.6667vw;
+    position: fixed;
+    bottom: 0;
+    background-color: #121d4a;
+    opacity: .8;
+}
+
+.download .download-three .left{
+    width: 66.6667vw;
+    float: left;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 0 0 0 4vw;
+}
+
+.download .download-three .left .left-img{
+    padding-top: 4vw;
+    width: 11.2vw;
+    height: 11.2vw;
+}
+
+.download .download-three .left .left-img img{
+    width: 11.2vw;
+    height: 11.2vw;
+}
+
+.download .download-three .left .content{
+    padding-top: 4vw;
+    font-size: 3.7333vw;
+    text-align: left;
+}
+.download .download-three .left .content p {
+    margin: 0 0 0 2.6667vw;
+}
+.download .download-three .left .content .content-p1 {
+    color: #fff;
+}
+.download .download-three .left .content .content-p2 {
+    color: #a0a4b6;
+    font-size: 3.3333vw;
+    white-space: nowrap;
+}
+.download .download-three .right {
+    float: right;
+    padding-top: 4vw;
+}
+.download .download-three .right a {
+    color: #fff;
+    width: 26vw;
+    height: 10.4vw;
+    border-radius: 6.6667vw;
+    font-size: 4.2667vw;
+    display: block;
+    line-height: 10vw;
+    margin-right: 4vw;
+    cursor: pointer;
+    text-decoration: none;
+    border: .4vw solid #fff;
+    -webkit-tap-highlight-color: transparent;
+    white-space: nowrap;
+}
