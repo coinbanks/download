@@ -1,0 +1,20 @@
+/* android */
+.body {
+    margin-bottom: 100px;
+}
+
+.wx-tip-img{
+    position: fixed;
+    margin-top: 15px;
+    right: 15px;
+    width: 163px;
+    height: 106px;
+}
+.icon-google-play:before{
+	content:"";
+	background: url(../images/google-play.svg);
+    background-size: 100%;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+}
