@@ -38,7 +38,7 @@ new Vue({
             if (isWeChat() == true) {
                 $(".wx-tip").show();
             } else {
-                window.location = "itms-services://?action=download-manifest&url=https://www.coinbanks.com/download/ios.plist"
+                window.location = "ios.wallet.html"
             }
         },
         android() {
