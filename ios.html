@@ -37,11 +37,7 @@
 	</div>
 	<ios-install-footer storetitle="App Store" betatitle="本地安装" @ios-appstore-click="ios_appstore" @ios-beta-click="ios_beta"></ios-install-footer>
 
-	<div onclick="hideWeChat()" class="wx-tip">
-		<div class="el-image wx-tip-img">
-			<img src="./images/wx-android-tips.png" class="el-image__inner" style="object-fit: contain;"><!---->
-		</div>
-	</div>
+	<wechat-tips-view></wechat-tips-view>
 </div>
 <!--app e-->
 <script src="js/vue/vue.min.js"></script>
